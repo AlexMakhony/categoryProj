@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: rgb(238, 231, 231);
+}
+li {
+    list-style: none;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    gap: 16px;
+    outline: 2px solid tomato;
+  }
+  .category_btn {
+    height: 31px;
+    border-radius: 20px;
+    padding: 0 21px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .img_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .img_for_space_on {
+    width: 100%;
+  }
+
+  
+  #myBtn {
+    display: none; /* Скрываем кнопку по умолчанию */
+    position: fixed; /* Фиксируем кнопку в нижнем правом углу страницы */
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; /* Размещаем кнопку над другими элементами страницы */
+    border:1px solid #38b9e9; /* Убираем границу */
+    outline: none; /* Убираем контур кнопки при фокусировке */
+    background-color: white; /* Цвет фона кнопки */
+    cursor: pointer; /* Курсор на кнопке при наведении */
+    padding: 15px; /* Добавляем отступы */
+    border-radius: 50px; /* Добавляем скругление углов */
+    width: 50px;
+    height: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #aed6eb; /* Цвет фона кнопки при наведении */
+  }
+
+  .upImg{
+    width: 25px;
+    display: block;
+    }
